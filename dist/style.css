@@ -16,12 +16,6 @@ body {
   animation-delay: 2s;
 }
 
-.slider .slides {
-  opacity: 0;
-  animation: slide 40s infinite;
-  animation-delay: 5s;
-}
-
 @keyframes slide {
   25% {
     background: url(slide-2.jpg) no-repeat bottom center/cover;
